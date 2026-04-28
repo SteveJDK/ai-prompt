@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogging on PromptStack - AI Prompt Toolkit</title>
-    <link>https://promptstack.xyz/tags/blogging/</link>
-    <description>Recent content in Blogging on PromptStack - AI Prompt Toolkit</description>
+    <title>Blogging on AI Prompt Toolkit</title>
+    <link>https://stevejdk.github.io/ai-prompt/tags/blogging/</link>
+    <description>Recent content in Blogging on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Apr 2026 20:00:00 +0000</lastBuildDate>
-    <atom:link href="https://promptstack.xyz/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Post Writer</title>
-      <link>https://promptstack.xyz/prompts/blog-post-writer/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/blog-post-writer/</link>
       <pubDate>Mon, 06 Apr 2026 20:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/blog-post-writer/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/blog-post-writer/</guid>
       <description></description>
     </item>
   </channel>
