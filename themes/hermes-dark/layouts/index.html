@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <!-- Hero -->
+
 <section class="hero">
   <h1>AI Prompt Toolkit</h1>
   <p>{{ .Site.Params.description }}</p>
@@ -27,7 +28,7 @@
     {{ range $name, $taxonomy := $categories }}
     {{ $catPages := where $pages "Params.categories" "intersect" (slice $name) }}
     {{ if gt (len $catPages) 0 }}
-    <a href="/categories/{{ $name | urlize }}/" class="category-card" data-category="{{ $name | urlize }}">
+    <a href="{{ (printf "categories/%s/" $name) | urlize | relURL }}" class="category-card" data-category="{{ $name | urlize }}">
       {{ $icons := dict "development" "💻" "writing" "✍️" "marketing" "📈" "image-generation" "🎨" "data-analysis" "📊" "automation" "⚙️" "business" "💼" "education" "🎓" "coding" "🖥️" "seo" "🔍" "social-media" "📱" "email" "📧" }}
       <div class="cat-icon">{{ index $icons $name | default "🚀" }}</div>
       <h3>{{ $name | title }}</h3>
@@ -52,7 +53,7 @@
     {{ end }}
   </div>
   <div class="text-center mt-4">
-    <a href="/prompts/" class="btn btn-primary">View All Prompts →</a>
+    <a href="{{ "prompts/" | relURL }}" class="btn btn-primary">View All Prompts →</a>
   </div>
 </div>
 

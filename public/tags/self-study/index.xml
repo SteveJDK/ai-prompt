@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Self-Study on PromptStack - AI Prompt Toolkit</title>
-    <link>https://promptstack.xyz/tags/self-study/</link>
-    <description>Recent content in Self-Study on PromptStack - AI Prompt Toolkit</description>
+    <title>Self-Study on AI Prompt Toolkit</title>
+    <link>https://stevejdk.github.io/ai-prompt/tags/self-study/</link>
+    <description>Recent content in Self-Study on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Apr 2026 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://promptstack.xyz/tags/self-study/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/self-study/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personalized Learning Path</title>
-      <link>https://promptstack.xyz/prompts/personalized-learning-path/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/personalized-learning-path/</link>
       <pubDate>Mon, 27 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/personalized-learning-path/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/personalized-learning-path/</guid>
       <description></description>
     </item>
   </channel>

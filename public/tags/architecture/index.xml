@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Architecture on PromptStack - AI Prompt Toolkit</title>
-    <link>https://promptstack.xyz/tags/architecture/</link>
-    <description>Recent content in Architecture on PromptStack - AI Prompt Toolkit</description>
+    <title>Architecture on AI Prompt Toolkit</title>
+    <link>https://stevejdk.github.io/ai-prompt/tags/architecture/</link>
+    <description>Recent content in Architecture on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2026 14:00:00 +0000</lastBuildDate>
-    <atom:link href="https://promptstack.xyz/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>API Design Consultant</title>
-      <link>https://promptstack.xyz/prompts/api-design-consultant/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/api-design-consultant/</link>
       <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/api-design-consultant/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/api-design-consultant/</guid>
       <description></description>
     </item>
   </channel>

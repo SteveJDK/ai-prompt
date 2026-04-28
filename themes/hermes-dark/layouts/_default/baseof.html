@@ -25,7 +25,7 @@
   {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }}">{{ end }}
   
   <!-- Styles -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,14 +49,14 @@
   <!-- Header -->
   <header class="site-header">
     <div class="header-inner">
-      <a href="/" class="site-logo">
+      <a href="{{ "" | relURL }}" class="site-logo">
         <div class="logo-icon">⚡</div>
         <span>AI Prompt</span>
       </a>
       <nav class="site-nav">
-        <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
-        <a href="/categories/">Categories</a>
-        <a href="/tags/">Tags</a>
+        <a href="{{ "" | relURL }}" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+        <a href="{{ "categories/" | relURL }}">Categories</a>
+        <a href="{{ "tags/" | relURL }}">Tags</a>
         {{ with .Site.Params.twitter }}<a href="https://x.com/{{ . }}" target="_blank">Twitter</a>{{ end }}
       </nav>
     </div>
@@ -74,7 +74,7 @@
   </footer>
 
   <!-- Scripts -->
-  <script src="/js/main.js"></script>
+  <script src="{{ "js/main.js" | relURL }}"></script>
   {{ block "scripts" . }}{{ end }}
 </body>
 </html>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portrait on PromptStack - AI Prompt Toolkit</title>
-    <link>https://promptstack.xyz/tags/portrait/</link>
-    <description>Recent content in Portrait on PromptStack - AI Prompt Toolkit</description>
+    <title>Portrait on AI Prompt Toolkit</title>
+    <link>https://stevejdk.github.io/ai-prompt/tags/portrait/</link>
+    <description>Recent content in Portrait on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Apr 2026 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://promptstack.xyz/tags/portrait/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/portrait/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Midjourney Photorealistic Portrait</title>
-      <link>https://promptstack.xyz/prompts/midjourney-photorealistic-portrait/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/midjourney-photorealistic-portrait/</link>
       <pubDate>Tue, 14 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/midjourney-photorealistic-portrait/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/midjourney-photorealistic-portrait/</guid>
       <description></description>
     </item>
   </channel>

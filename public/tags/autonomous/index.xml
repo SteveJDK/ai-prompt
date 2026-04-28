@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Autonomous on PromptStack - AI Prompt Toolkit</title>
-    <link>https://promptstack.xyz/tags/autonomous/</link>
-    <description>Recent content in Autonomous on PromptStack - AI Prompt Toolkit</description>
+    <title>Autonomous on AI Prompt Toolkit</title>
+    <link>https://stevejdk.github.io/ai-prompt/tags/autonomous/</link>
+    <description>Recent content in Autonomous on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://promptstack.xyz/tags/autonomous/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/autonomous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI Agent Builder</title>
-      <link>https://promptstack.xyz/prompts/ai-agent-builder/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/ai-agent-builder/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/ai-agent-builder/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/ai-agent-builder/</guid>
       <description></description>
     </item>
   </channel>

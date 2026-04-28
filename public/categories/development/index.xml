@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on PromptStack - AI Prompt Toolkit</title>
-    <link>https://promptstack.xyz/categories/development/</link>
-    <description>Recent content in Development on PromptStack - AI Prompt Toolkit</description>
+    <title>Development on AI Prompt Toolkit</title>
+    <link>https://stevejdk.github.io/ai-prompt/categories/development/</link>
+    <description>Recent content in Development on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2026 18:00:00 +0000</lastBuildDate>
-    <atom:link href="https://promptstack.xyz/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stevejdk.github.io/ai-prompt/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Refactoring Assistant</title>
-      <link>https://promptstack.xyz/prompts/refactoring-assistant/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/refactoring-assistant/</link>
       <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/refactoring-assistant/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/refactoring-assistant/</guid>
       <description></description>
     </item>
     <item>
       <title>Database Schema Designer</title>
-      <link>https://promptstack.xyz/prompts/database-schema-designer/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/database-schema-designer/</link>
       <pubDate>Sat, 04 Apr 2026 16:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/database-schema-designer/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/database-schema-designer/</guid>
       <description></description>
     </item>
     <item>
       <title>API Design Consultant</title>
-      <link>https://promptstack.xyz/prompts/api-design-consultant/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/api-design-consultant/</link>
       <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/api-design-consultant/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/api-design-consultant/</guid>
       <description></description>
     </item>
     <item>
       <title>Debug This Error</title>
-      <link>https://promptstack.xyz/prompts/debug-this-error/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/debug-this-error/</link>
       <pubDate>Thu, 02 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/debug-this-error/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/debug-this-error/</guid>
       <description></description>
     </item>
     <item>
       <title>Code Review Expert</title>
-      <link>https://promptstack.xyz/prompts/code-review-expert/</link>
+      <link>https://stevejdk.github.io/ai-prompt/prompts/code-review-expert/</link>
       <pubDate>Wed, 01 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://promptstack.xyz/prompts/code-review-expert/</guid>
+      <guid>https://stevejdk.github.io/ai-prompt/prompts/code-review-expert/</guid>
       <description></description>
     </item>
   </channel>
