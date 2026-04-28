@@ -1,0 +1,9 @@
+name = "Hermes Dark"
+description = "Clean dark theme for AI prompt toolkit sites"
+tags = ["dark", "minimal", "responsive", "ai", "prompts"]
+features = ["responsive", "dark-mode", "seo-optimized"]
+min_version = "0.120.0"
+
+[author]
+  name = "PromptStack"
+  homepage = "https://promptstack.xyz"

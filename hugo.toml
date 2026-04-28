@@ -1,0 +1,59 @@
+baseURL = "https://promptstack.xyz/"
+languageCode = "en-us"
+title = "AI Prompt Toolkit"
+theme = "hermes-dark"
+
+[params]
+  description = "Free AI Prompt Toolkit for developers, marketers, and creators. Copy-paste ready prompts for ChatGPT, Claude, Gemini and more."
+  author = "AI Prompt"
+  keywords = "AI prompts, ChatGPT prompts, Claude prompts, prompt engineering, AI toolkit, free prompts"
+
+  # A-Ads Configuration
+  aads_site_id = ""
+
+  # Social
+  twitter = ""
+  github = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.x]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.7
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[outputFormats]
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "prompts"
+    isPlainText = true
+
+[minify]
+  disableXML = true

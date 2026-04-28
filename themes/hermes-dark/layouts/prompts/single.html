@@ -1,0 +1,86 @@
+{{ define "main" }}
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>
+  {{ $cat := index .Params.categories 0 }}<a href="/categories/{{ $cat | urlize }}/">{{ $cat | title }}</a><span>›</span>
+  <span>{{ .Title }}</span>
+</div>
+
+<article class="prompt-detail">
+  <h1>{{ .Title }}</h1>
+  
+  <div class="prompt-meta">
+    {{ with .Params.categories }}
+    <span>📁 {{ range . }}<a href="/categories/{{ . | urlize }}/">{{ . | title }}</a>{{ end }}</span>
+    {{ end }}
+    {{ with .Params.model }}
+    <span>🤖 {{ . }}</span>
+    {{ end }}
+    {{ with .Params.difficulty }}
+    <span>📊 {{ . | title }}</span>
+    {{ end }}
+    <span>📅 {{ .Date.Format "Jan 2, 2006" }}</span>
+  </div>
+
+  <div class="prompt-tags mb-4">
+    {{ with .Params.tags }}
+    {{ range . }}
+    <a href="/tags/{{ . | urlize }}/" class="tag">{{ . }}</a>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  {{ if .Params.description }}
+  <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 1.05rem;">{{ .Params.description }}</p>
+  {{ end }}
+
+  {{ if .Params.prompt_text }}
+  <h3 style="margin-bottom: 12px; font-size: 1rem; color: var(--text-secondary);">📋 Prompt</h3>
+  <div class="prompt-content" id="promptContent">
+    <button class="copy-btn" id="copyBtn" onclick="copyPrompt()">📋 Copy</button>
+    <pre id="promptText">{{ .Params.prompt_text | safeHTML }}</pre>
+  </div>
+  {{ end }}
+
+  {{ with .Params.tips }}
+  <h3 style="margin-bottom: 12px; font-size: 1rem; color: var(--text-secondary);">💡 Tips</h3>
+  <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 24px;">
+    {{ if reflect.IsSlice . }}
+    <ul style="padding-left: 20px; color: var(--text-secondary);">
+      {{ range . }}
+      <li style="margin-bottom: 8px;">{{ . }}</li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    {{ . }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ with .Content }}
+  <div style="margin-top: 32px;">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  <!-- Related Prompts -->
+  {{ with .Params.categories }}
+  {{ $currentCat := index . 0 }}
+  {{ $related := where (where $.Site.RegularPages "Type" "prompts") "Params.categories" "intersect" (slice $currentCat) }}
+  {{ $related = where $related "Permalink" "ne" $.Permalink }}
+  {{ if gt (len $related) 0 }}
+  <div style="margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--border);">
+    <h3 style="margin-bottom: 20px;">Related Prompts</h3>
+    <div class="prompts-grid">
+      {{ range first 4 $related.ByDate.Reverse }}
+      {{ partial "prompt-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+</article>
+
+{{ partial "ad-banner.html" . }}
+
+{{ end }}

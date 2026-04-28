@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>
+  <span>{{ .Title }}</span>
+</div>
+
+<div class="categories" style="padding-top: 32px;">
+  <div class="section-header">
+    <h1>{{ .Title | title }}</h1>
+  </div>
+  <div class="categories-grid">
+    {{ $pages := where .Site.RegularPages "Type" "prompts" }}
+    {{ range .Data.Terms.ByCount }}
+    {{ $catPages := where $pages "Params.categories" "intersect" (slice .Name) }}
+    {{ if gt (len $catPages) 0 }}
+    <a href="{{ .Page.RelPermalink }}" class="category-card">
+      <div class="cat-icon">📂</div>
+      <h3>{{ .Name | title }}</h3>
+      <span class="cat-count">{{ len $catPages }} prompts</span>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

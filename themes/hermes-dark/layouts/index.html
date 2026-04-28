@@ -1,0 +1,59 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <h1>AI Prompt Toolkit</h1>
+  <p>{{ .Site.Params.description }}</p>
+</section>
+
+<!-- Search -->
+<div class="search-box">
+  <span class="search-icon">🔍</span>
+  <input type="text" id="searchInput" placeholder="Search prompts..." autocomplete="off">
+</div>
+
+<!-- Ad Banner -->
+{{ partial "ad-banner.html" . }}
+
+<!-- Categories -->
+<div class="categories">
+  <div class="section-header">
+    <h2>Browse by Category</h2>
+    <p>Find the perfect prompt for your use case</p>
+  </div>
+  <div class="categories-grid" id="categoriesGrid">
+    {{ $pages := where .Site.RegularPages "Type" "prompts" }}
+    {{ $categories := .Site.Taxonomies.categories }}
+    {{ range $name, $taxonomy := $categories }}
+    {{ $catPages := where $pages "Params.categories" "intersect" (slice $name) }}
+    {{ if gt (len $catPages) 0 }}
+    <a href="/categories/{{ $name | urlize }}/" class="category-card" data-category="{{ $name | urlize }}">
+      {{ $icons := dict "development" "💻" "writing" "✍️" "marketing" "📈" "image-generation" "🎨" "data-analysis" "📊" "automation" "⚙️" "business" "💼" "education" "🎓" "coding" "🖥️" "seo" "🔍" "social-media" "📱" "email" "📧" }}
+      <div class="cat-icon">{{ index $icons $name | default "🚀" }}</div>
+      <h3>{{ $name | title }}</h3>
+      <p>Curated prompts for {{ $name }}</p>
+      <span class="cat-count">{{ len $catPages }} prompts</span>
+    </a>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+
+<!-- Latest Prompts -->
+<div class="prompts-list">
+  <div class="section-header">
+    <h2>Latest Prompts</h2>
+    <p>Fresh prompts added to the toolkit</p>
+  </div>
+  <div class="prompts-grid" id="promptsGrid">
+    {{ $prompts := where .Site.RegularPages "Type" "prompts" }}
+    {{ range first 12 ($prompts.ByDate.Reverse) }}
+    {{ partial "prompt-card.html" . }}
+    {{ end }}
+  </div>
+  <div class="text-center mt-4">
+    <a href="/prompts/" class="btn btn-primary">View All Prompts →</a>
+  </div>
+</div>
+
+{{ end }}

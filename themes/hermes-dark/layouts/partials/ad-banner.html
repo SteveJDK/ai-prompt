@@ -1,0 +1,8 @@
+{{ if .Site.Params.aads_site_id }}
+<div class="ad-container">
+  <div class="ad-placeholder">
+    <ins class="adsbyaads" data-site-id="{{ .Site.Params.aads_site_id }}" data-width="728" data-height="90"></ins>
+    <script async src="https://cdn.aads.com/aads.js"></script>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ .Permalink }}">
+  
+  <!-- RSS Feed -->
+  {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ $.Site.Title }}">{{ end }}
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/main.css">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  {{ block "head" . }}{{ end }}
+  
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}",
+    "description": "{{ .Site.Params.description }}"
+  }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="site-logo">
+        <div class="logo-icon">⚡</div>
+        <span>AI Prompt</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a>
+        <a href="/categories/">Categories</a>
+        <a href="/tags/">Tags</a>
+        {{ with .Site.Params.twitter }}<a href="https://x.com/{{ . }}" target="_blank">Twitter</a>{{ end }}
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>Built with Hugo | Free AI Prompt Toolkit</p>
+    <p class="mt-2">Copy, paste, and build. All prompts are free to use.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/js/main.js"></script>
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>

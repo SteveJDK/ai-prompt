@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<div class="breadcrumb">
+  <a href="/">Home</a><span>›</span>
+  <a href="/categories/">Categories</a><span>›</span>
+  <span>{{ .Title }}</span>
+</div>
+
+<div class="prompts-list">
+  <div class="section-header">
+    <h1>{{ .Title | title }}</h1>
+    <p>{{ len .Pages }} prompts in this category</p>
+  </div>
+  <div class="prompts-grid">
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) 12 }}
+    {{ range $paginator.Pages }}
+    {{ partial "prompt-card.html" . }}
+    {{ end }}
+  </div>
+  {{ if gt $paginator.TotalPages 1 }}
+  <div class="pagination">
+    {{ if $paginator.HasPrev }}<a href="{{ $paginator.Prev.URL }}">‹ Prev</a>{{ end }}
+    {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}<span class="active">{{ .PageNumber }}</span>{{ else }}<a href="{{ .URL }}">{{ .PageNumber }}</a>{{ end }}
+    {{ end }}
+    {{ if $paginator.HasNext }}<a href="{{ $paginator.Next.URL }}">Next ›</a>{{ end }}
+  </div>
+  {{ end }}
+</div>
+
+{{ end }}

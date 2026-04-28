@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business on PromptStack - AI Prompt Toolkit</title>
+    <link>https://promptstack.xyz/categories/business/</link>
+    <description>Recent content in Business on PromptStack - AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2026 08:00:00 +0000</lastBuildDate>
+    <atom:link href="https://promptstack.xyz/categories/business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Competitive Analysis Report</title>
+      <link>https://promptstack.xyz/prompts/competitive-analysis-report/</link>
+      <pubDate>Sun, 26 Apr 2026 08:00:00 +0000</pubDate>
+      <guid>https://promptstack.xyz/prompts/competitive-analysis-report/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Startup Pitch Deck Outline</title>
+      <link>https://promptstack.xyz/prompts/startup-pitch-deck-outline/</link>
+      <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
+      <guid>https://promptstack.xyz/prompts/startup-pitch-deck-outline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business Model Canvas Generator</title>
+      <link>https://promptstack.xyz/prompts/business-model-canvas-generator/</link>
+      <pubDate>Fri, 24 Apr 2026 04:00:00 +0000</pubDate>
+      <guid>https://promptstack.xyz/prompts/business-model-canvas-generator/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
