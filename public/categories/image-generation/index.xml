@@ -6,8 +6,15 @@
     <description>Recent content in Image-Generation on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/image-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT Image 2.0 Master Prompts (2026)</title>
+      <link>/prompts/gpt-image-2-0-master-prompts/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/gpt-image-2-0-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;gpt-image-20-optimization-notes&#34;&gt;GPT Image 2.0 Optimization Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version 3.0&lt;/strong&gt; introduces precision typography support and structured JSON prompts.&lt;/li&gt;&#xA;&lt;li&gt;Replaces adjectives with concrete visual parameters.&lt;/li&gt;&#xA;&lt;li&gt;Canvas definition must precede subject description for stable composition.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>DALL-E Logo Design Prompt</title>
       <link>/prompts/dall-e-logo-design-prompt/</link>

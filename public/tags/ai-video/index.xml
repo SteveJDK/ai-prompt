@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai-Video on AI Prompt Toolkit</title>
+    <link>/tags/ai-video/</link>
+    <description>Recent content in Ai-Video on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/ai-video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Runway Gen-4 Cinematic AI Video Prompts (2026)</title>
+      <link>/prompts/runway-gen-4-cinematic/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/runway-gen-4-cinematic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seedance 2.0 Video-to-Video &amp; Motion Transfer (2026)</title>
+      <link>/prompts/seedance-2-0-motion-transfer/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/seedance-2-0-motion-transfer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sora Cinematic Video Prompts (2026)</title>
+      <link>/prompts/sora-cinematic-prompts/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/sora-cinematic-prompts/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

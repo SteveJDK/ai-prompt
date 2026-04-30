@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "AI Prompt Toolkit"
 theme = "hermes-dark"
 
-[params]
-  description = "Free AI Prompt Toolkit for developers, marketers, and creators. Copy-paste ready prompts for ChatGPT, Claude, Gemini and more."
+  [params]
+  description = "Free AI Prompt Toolkit for developers, marketers, and creators. Copy-paste ready prompts for GPT-Image-2.0, Seedance 2.0, Runway Gen-4, Claude 4, and more. Daily updated trending model prompts."
   author = "AI Prompt"
   keywords = "AI prompts, ChatGPT prompts, Claude prompts, prompt engineering, AI toolkit, free prompts"
 
@@ -43,7 +43,8 @@ theme = "hermes-dark"
 [taxonomies]
   category = "categories"
   tag = "tags"
-
+  model = "models"
+  featured = "featured"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]
