@@ -392,6 +392,29 @@ pre code {
 .copy-btn:hover { color: var(--text-primary); border-color: var(--accent); }
 .copy-btn.copied { color: var(--green); border-color: var(--green); }
 
+/* ===== Trending Section ===== */
+.trending-section {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px 64px;
+  background: linear-gradient(135deg, rgba(248, 81, 73, 0.05), rgba(188, 140, 255, 0.05));
+  border-radius: var(--radius);
+  margin-bottom: 48px;
+}
+
+.trending-section .section-header {
+  text-align: center;
+  padding: 32px 24px 24px;
+}
+
+.trending-section .section-header h2 {
+  color: var(--orange);
+}
+
+.trending-section .prompts-grid {
+  padding: 0 24px 32px;
+}
+
 /* ===== Ad Container ===== */
 .ad-container {
   max-width: var(--max-width);
