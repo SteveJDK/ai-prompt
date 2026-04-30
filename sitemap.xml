@@ -47,6 +47,121 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
+    <loc>/tags/ai-art/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/ai-video/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/bytedance/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/cinematic/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/director-mode/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/featured/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/film-making/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/gpt-image-2-0-master-prompts/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/gpt-image-2/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/categories/image-generation/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/image-generation/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/motion-transfer/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/openai/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/prompt-engineering/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/runway-gen-4-cinematic/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/runway-gen-4/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/seedance-2-0-motion-transfer/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/seedance-2-0/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/sora/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/sora-cinematic-prompts/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/featured/true/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/categories/video-generation/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/video-generation/</loc>
+    <lastmod>2026-04-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
     <loc>/prompts/socratic-tutor/</loc>
     <lastmod>2026-04-28T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -288,11 +403,6 @@
     <priority>0.7</priority>
   </url><url>
     <loc>/prompts/dall-e-logo-design-prompt/</loc>
-    <lastmod>2026-04-16T14:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
-    <loc>/categories/image-generation/</loc>
     <lastmod>2026-04-16T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -574,6 +684,10 @@
   </url><url>
     <loc>/tags/code-review/</loc>
     <lastmod>2026-04-01T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/models/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

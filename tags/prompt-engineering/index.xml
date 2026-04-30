@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prompt-Engineering on AI Prompt Toolkit</title>
+    <link>/tags/prompt-engineering/</link>
+    <description>Recent content in Prompt-Engineering on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/prompt-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT Image 2.0 Master Prompts (2026)</title>
+      <link>/prompts/gpt-image-2-0-master-prompts/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/gpt-image-2-0-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;gpt-image-20-optimization-notes&#34;&gt;GPT Image 2.0 Optimization Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version 3.0&lt;/strong&gt; introduces precision typography support and structured JSON prompts.&lt;/li&gt;&#xA;&lt;li&gt;Replaces adjectives with concrete visual parameters.&lt;/li&gt;&#xA;&lt;li&gt;Canvas definition must precede subject description for stable composition.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

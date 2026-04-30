@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>True on AI Prompt Toolkit</title>
+    <link>/featured/true/</link>
+    <description>Recent content in True on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/featured/true/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT Image 2.0 Master Prompts (2026)</title>
+      <link>/prompts/gpt-image-2-0-master-prompts/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/gpt-image-2-0-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;gpt-image-20-optimization-notes&#34;&gt;GPT Image 2.0 Optimization Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version 3.0&lt;/strong&gt; introduces precision typography support and structured JSON prompts.&lt;/li&gt;&#xA;&lt;li&gt;Replaces adjectives with concrete visual parameters.&lt;/li&gt;&#xA;&lt;li&gt;Canvas definition must precede subject description for stable composition.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Runway Gen-4 Cinematic AI Video Prompts (2026)</title>
+      <link>/prompts/runway-gen-4-cinematic/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/runway-gen-4-cinematic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seedance 2.0 Video-to-Video &amp; Motion Transfer (2026)</title>
+      <link>/prompts/seedance-2-0-motion-transfer/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/seedance-2-0-motion-transfer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sora Cinematic Video Prompts (2026)</title>
+      <link>/prompts/sora-cinematic-prompts/</link>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/sora-cinematic-prompts/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
