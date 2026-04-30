@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zapier on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/zapier/</link>
+    <link>/tags/zapier/</link>
     <description>Recent content in Zapier on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Apr 2026 02:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/zapier/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/zapier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zapier Make Workflow Designer</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/zapier-make-workflow-designer/</link>
+      <link>/prompts/zapier-make-workflow-designer/</link>
       <pubDate>Thu, 23 Apr 2026 02:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/zapier-make-workflow-designer/</guid>
+      <guid>/prompts/zapier-make-workflow-designer/</guid>
       <description></description>
     </item>
   </channel>

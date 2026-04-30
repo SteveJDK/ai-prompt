@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Strategy on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/strategy/</link>
+    <link>/tags/strategy/</link>
     <description>Recent content in Strategy on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Apr 2026 08:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Competitive Analysis Report</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/competitive-analysis-report/</link>
+      <link>/prompts/competitive-analysis-report/</link>
       <pubDate>Sun, 26 Apr 2026 08:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/competitive-analysis-report/</guid>
+      <guid>/prompts/competitive-analysis-report/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing Strategy Builder</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/marketing-strategy-builder/</link>
+      <link>/prompts/marketing-strategy-builder/</link>
       <pubDate>Sat, 11 Apr 2026 04:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/marketing-strategy-builder/</guid>
+      <guid>/prompts/marketing-strategy-builder/</guid>
       <description></description>
     </item>
   </channel>

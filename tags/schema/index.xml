@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schema on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/schema/</link>
+    <link>/tags/schema/</link>
     <description>Recent content in Schema on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2026 16:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/schema/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/schema/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Database Schema Designer</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/database-schema-designer/</link>
+      <link>/prompts/database-schema-designer/</link>
       <pubDate>Sat, 04 Apr 2026 16:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/database-schema-designer/</guid>
+      <guid>/prompts/database-schema-designer/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Business-Model on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/business-model/</link>
+    <link>/tags/business-model/</link>
     <description>Recent content in Business-Model on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 24 Apr 2026 04:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/business-model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/business-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business Model Canvas Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/business-model-canvas-generator/</link>
+      <link>/prompts/business-model-canvas-generator/</link>
       <pubDate>Fri, 24 Apr 2026 04:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/business-model-canvas-generator/</guid>
+      <guid>/prompts/business-model-canvas-generator/</guid>
       <description></description>
     </item>
   </channel>

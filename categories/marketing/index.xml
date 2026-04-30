@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marketing on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/categories/marketing/</link>
+    <link>/categories/marketing/</link>
     <description>Recent content in Marketing on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Apr 2026 04:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/marketing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Marketing Strategy Builder</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/marketing-strategy-builder/</link>
+      <link>/prompts/marketing-strategy-builder/</link>
       <pubDate>Sat, 11 Apr 2026 04:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/marketing-strategy-builder/</guid>
+      <guid>/prompts/marketing-strategy-builder/</guid>
       <description></description>
     </item>
   </channel>
