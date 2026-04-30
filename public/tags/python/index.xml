@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Recent content in Python on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Apr 2026 22:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Automation Script</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/python-automation-script/</link>
+      <link>/prompts/python-automation-script/</link>
       <pubDate>Mon, 20 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/python-automation-script/</guid>
+      <guid>/prompts/python-automation-script/</guid>
       <description></description>
     </item>
   </channel>

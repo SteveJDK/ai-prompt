@@ -1,4 +1,4 @@
-baseURL = "https://stevejdk.github.io/ai-prompt/"
+baseURL = "/"
 languageCode = "en-us"
 title = "AI Prompt Toolkit"
 theme = "hermes-dark"

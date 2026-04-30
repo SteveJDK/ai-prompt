@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Logo on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/logo/</link>
+    <link>/tags/logo/</link>
     <description>Recent content in Logo on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Apr 2026 14:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/logo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/logo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DALL-E Logo Design Prompt</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/dall-e-logo-design-prompt/</link>
+      <link>/prompts/dall-e-logo-design-prompt/</link>
       <pubDate>Thu, 16 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/dall-e-logo-design-prompt/</guid>
+      <guid>/prompts/dall-e-logo-design-prompt/</guid>
       <description></description>
     </item>
   </channel>

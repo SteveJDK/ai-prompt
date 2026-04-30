@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Image-Generation on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/categories/image-generation/</link>
+    <link>/categories/image-generation/</link>
     <description>Recent content in Image-Generation on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Apr 2026 14:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/categories/image-generation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/image-generation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DALL-E Logo Design Prompt</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/dall-e-logo-design-prompt/</link>
+      <link>/prompts/dall-e-logo-design-prompt/</link>
       <pubDate>Thu, 16 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/dall-e-logo-design-prompt/</guid>
+      <guid>/prompts/dall-e-logo-design-prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Product Photography Prompt</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/product-photography-prompt/</link>
+      <link>/prompts/product-photography-prompt/</link>
       <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/product-photography-prompt/</guid>
+      <guid>/prompts/product-photography-prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Midjourney Photorealistic Portrait</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/midjourney-photorealistic-portrait/</link>
+      <link>/prompts/midjourney-photorealistic-portrait/</link>
       <pubDate>Tue, 14 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/midjourney-photorealistic-portrait/</guid>
+      <guid>/prompts/midjourney-photorealistic-portrait/</guid>
       <description></description>
     </item>
   </channel>

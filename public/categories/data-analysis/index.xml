@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data-Analysis on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/categories/data-analysis/</link>
+    <link>/categories/data-analysis/</link>
     <description>Recent content in Data-Analysis on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 20:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/categories/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Excel Formula Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/excel-formula-generator/</link>
+      <link>/prompts/excel-formula-generator/</link>
       <pubDate>Sun, 19 Apr 2026 20:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/excel-formula-generator/</guid>
+      <guid>/prompts/excel-formula-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL Query Builder</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/sql-query-builder/</link>
+      <link>/prompts/sql-query-builder/</link>
       <pubDate>Sat, 18 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/sql-query-builder/</guid>
+      <guid>/prompts/sql-query-builder/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analysis Consultant</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/data-analysis-consultant/</link>
+      <link>/prompts/data-analysis-consultant/</link>
       <pubDate>Fri, 17 Apr 2026 16:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/data-analysis-consultant/</guid>
+      <guid>/prompts/data-analysis-consultant/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Formulas on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/formulas/</link>
+    <link>/tags/formulas/</link>
     <description>Recent content in Formulas on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 20:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/formulas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/formulas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Excel Formula Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/excel-formula-generator/</link>
+      <link>/prompts/excel-formula-generator/</link>
       <pubDate>Sun, 19 Apr 2026 20:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/excel-formula-generator/</guid>
+      <guid>/prompts/excel-formula-generator/</guid>
       <description></description>
     </item>
   </channel>

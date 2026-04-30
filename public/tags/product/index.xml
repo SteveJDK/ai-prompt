@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Product on AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/tags/product/</link>
+    <link>/tags/product/</link>
     <description>Recent content in Product on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Apr 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/product/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Product Photography Prompt</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/product-photography-prompt/</link>
+      <link>/prompts/product-photography-prompt/</link>
       <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/product-photography-prompt/</guid>
+      <guid>/prompts/product-photography-prompt/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,199 +2,199 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Prompt Toolkit</title>
-    <link>https://stevejdk.github.io/ai-prompt/</link>
+    <link>/</link>
     <description>Recent content on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Apr 2026 14:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stevejdk.github.io/ai-prompt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exam Study Plan Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/exam-study-plan-generator/</link>
+      <link>/prompts/exam-study-plan-generator/</link>
       <pubDate>Wed, 29 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/exam-study-plan-generator/</guid>
+      <guid>/prompts/exam-study-plan-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Socratic Tutor</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/socratic-tutor/</link>
+      <link>/prompts/socratic-tutor/</link>
       <pubDate>Tue, 28 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/socratic-tutor/</guid>
+      <guid>/prompts/socratic-tutor/</guid>
       <description></description>
     </item>
     <item>
       <title>Personalized Learning Path</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/personalized-learning-path/</link>
+      <link>/prompts/personalized-learning-path/</link>
       <pubDate>Mon, 27 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/personalized-learning-path/</guid>
+      <guid>/prompts/personalized-learning-path/</guid>
       <description></description>
     </item>
     <item>
       <title>Competitive Analysis Report</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/competitive-analysis-report/</link>
+      <link>/prompts/competitive-analysis-report/</link>
       <pubDate>Sun, 26 Apr 2026 08:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/competitive-analysis-report/</guid>
+      <guid>/prompts/competitive-analysis-report/</guid>
       <description></description>
     </item>
     <item>
       <title>Startup Pitch Deck Outline</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/startup-pitch-deck-outline/</link>
+      <link>/prompts/startup-pitch-deck-outline/</link>
       <pubDate>Sat, 25 Apr 2026 06:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/startup-pitch-deck-outline/</guid>
+      <guid>/prompts/startup-pitch-deck-outline/</guid>
       <description></description>
     </item>
     <item>
       <title>Business Model Canvas Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/business-model-canvas-generator/</link>
+      <link>/prompts/business-model-canvas-generator/</link>
       <pubDate>Fri, 24 Apr 2026 04:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/business-model-canvas-generator/</guid>
+      <guid>/prompts/business-model-canvas-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Zapier Make Workflow Designer</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/zapier-make-workflow-designer/</link>
+      <link>/prompts/zapier-make-workflow-designer/</link>
       <pubDate>Thu, 23 Apr 2026 02:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/zapier-make-workflow-designer/</guid>
+      <guid>/prompts/zapier-make-workflow-designer/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Agent Builder</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/ai-agent-builder/</link>
+      <link>/prompts/ai-agent-builder/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/ai-agent-builder/</guid>
+      <guid>/prompts/ai-agent-builder/</guid>
       <description></description>
     </item>
     <item>
       <title>Python Automation Script</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/python-automation-script/</link>
+      <link>/prompts/python-automation-script/</link>
       <pubDate>Mon, 20 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/python-automation-script/</guid>
+      <guid>/prompts/python-automation-script/</guid>
       <description></description>
     </item>
     <item>
       <title>Excel Formula Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/excel-formula-generator/</link>
+      <link>/prompts/excel-formula-generator/</link>
       <pubDate>Sun, 19 Apr 2026 20:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/excel-formula-generator/</guid>
+      <guid>/prompts/excel-formula-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL Query Builder</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/sql-query-builder/</link>
+      <link>/prompts/sql-query-builder/</link>
       <pubDate>Sat, 18 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/sql-query-builder/</guid>
+      <guid>/prompts/sql-query-builder/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Analysis Consultant</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/data-analysis-consultant/</link>
+      <link>/prompts/data-analysis-consultant/</link>
       <pubDate>Fri, 17 Apr 2026 16:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/data-analysis-consultant/</guid>
+      <guid>/prompts/data-analysis-consultant/</guid>
       <description></description>
     </item>
     <item>
       <title>DALL-E Logo Design Prompt</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/dall-e-logo-design-prompt/</link>
+      <link>/prompts/dall-e-logo-design-prompt/</link>
       <pubDate>Thu, 16 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/dall-e-logo-design-prompt/</guid>
+      <guid>/prompts/dall-e-logo-design-prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Product Photography Prompt</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/product-photography-prompt/</link>
+      <link>/prompts/product-photography-prompt/</link>
       <pubDate>Wed, 15 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/product-photography-prompt/</guid>
+      <guid>/prompts/product-photography-prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Midjourney Photorealistic Portrait</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/midjourney-photorealistic-portrait/</link>
+      <link>/prompts/midjourney-photorealistic-portrait/</link>
       <pubDate>Tue, 14 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/midjourney-photorealistic-portrait/</guid>
+      <guid>/prompts/midjourney-photorealistic-portrait/</guid>
       <description></description>
     </item>
     <item>
       <title>Keyword Research Assistant</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/keyword-research-assistant/</link>
+      <link>/prompts/keyword-research-assistant/</link>
       <pubDate>Mon, 13 Apr 2026 08:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/keyword-research-assistant/</guid>
+      <guid>/prompts/keyword-research-assistant/</guid>
       <description></description>
     </item>
     <item>
       <title>SEO Meta Tag Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/seo-meta-tag-generator/</link>
+      <link>/prompts/seo-meta-tag-generator/</link>
       <pubDate>Sun, 12 Apr 2026 06:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/seo-meta-tag-generator/</guid>
+      <guid>/prompts/seo-meta-tag-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Marketing Strategy Builder</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/marketing-strategy-builder/</link>
+      <link>/prompts/marketing-strategy-builder/</link>
       <pubDate>Sat, 11 Apr 2026 04:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/marketing-strategy-builder/</guid>
+      <guid>/prompts/marketing-strategy-builder/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical Documentation Writer</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/technical-documentation-writer/</link>
+      <link>/prompts/technical-documentation-writer/</link>
       <pubDate>Fri, 10 Apr 2026 02:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/technical-documentation-writer/</guid>
+      <guid>/prompts/technical-documentation-writer/</guid>
       <description></description>
     </item>
     <item>
       <title>Story Plot Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/story-plot-generator/</link>
+      <link>/prompts/story-plot-generator/</link>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/story-plot-generator/</guid>
+      <guid>/prompts/story-plot-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Copywriting Formula Generator</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/copywriting-formula-generator/</link>
+      <link>/prompts/copywriting-formula-generator/</link>
       <pubDate>Tue, 07 Apr 2026 22:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/copywriting-formula-generator/</guid>
+      <guid>/prompts/copywriting-formula-generator/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog Post Writer</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/blog-post-writer/</link>
+      <link>/prompts/blog-post-writer/</link>
       <pubDate>Mon, 06 Apr 2026 20:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/blog-post-writer/</guid>
+      <guid>/prompts/blog-post-writer/</guid>
       <description></description>
     </item>
     <item>
       <title>Refactoring Assistant</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/refactoring-assistant/</link>
+      <link>/prompts/refactoring-assistant/</link>
       <pubDate>Sun, 05 Apr 2026 18:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/refactoring-assistant/</guid>
+      <guid>/prompts/refactoring-assistant/</guid>
       <description></description>
     </item>
     <item>
       <title>Database Schema Designer</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/database-schema-designer/</link>
+      <link>/prompts/database-schema-designer/</link>
       <pubDate>Sat, 04 Apr 2026 16:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/database-schema-designer/</guid>
+      <guid>/prompts/database-schema-designer/</guid>
       <description></description>
     </item>
     <item>
       <title>API Design Consultant</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/api-design-consultant/</link>
+      <link>/prompts/api-design-consultant/</link>
       <pubDate>Fri, 03 Apr 2026 14:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/api-design-consultant/</guid>
+      <guid>/prompts/api-design-consultant/</guid>
       <description></description>
     </item>
     <item>
       <title>Debug This Error</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/debug-this-error/</link>
+      <link>/prompts/debug-this-error/</link>
       <pubDate>Thu, 02 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/debug-this-error/</guid>
+      <guid>/prompts/debug-this-error/</guid>
       <description></description>
     </item>
     <item>
       <title>Code Review Expert</title>
-      <link>https://stevejdk.github.io/ai-prompt/prompts/code-review-expert/</link>
+      <link>/prompts/code-review-expert/</link>
       <pubDate>Wed, 01 Apr 2026 10:00:00 +0000</pubDate>
-      <guid>https://stevejdk.github.io/ai-prompt/prompts/code-review-expert/</guid>
+      <guid>/prompts/code-review-expert/</guid>
       <description></description>
     </item>
   </channel>
