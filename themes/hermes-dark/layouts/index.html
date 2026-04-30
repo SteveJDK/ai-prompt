@@ -1,16 +1,43 @@
 {{ define "main" }}
 
 <!-- Hero -->
-
 <section class="hero">
-  <h1>AI Prompt Toolkit</h1>
-  <p>{{ .Site.Params.description }}</p>
+  <h1>Supercharge Your AI,<br>One Prompt at a Time</h1>
+  <p>50+ battle-tested prompts. Copy, paste, build. Stop wasting time writing prompts from scratch — get instant results with templates used by thousands of developers and creators.</p>
+  <div class="hero-stats">
+    <div class="stat"><span class="stat-num" id="copyCount">3,200+</span><span class="stat-label">Copies Served</span></div>
+    <div class="stat"><span class="stat-num">{{ len (where .Site.RegularPages "Type" "prompts") }}</span><span class="stat-label">Curated Prompts</span></div>
+    <div class="stat"><span class="stat-num">{{ len .Site.Taxonomies.categories }}</span><span class="stat-label">Categories</span></div>
+  </div>
 </section>
 
 <!-- Search -->
 <div class="search-box">
   <span class="search-icon">🔍</span>
   <input type="text" id="searchInput" placeholder="Search prompts..." autocomplete="off">
+  <div class="search-filters">
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+      <option value="{{ $name | urlize }}">{{ $name | title }} ({{ $taxonomy.Count }})</option>
+      {{ end }}
+    </select>
+    <select id="difficultyFilter">
+      <option value="">All Levels</option>
+      <option value="beginner">Beginner</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+    </select>
+    <select id="modelFilter">
+      <option value="">All Models</option>
+      <option value="All Models">All Models</option>
+      <option value="ChatGPT">ChatGPT</option>
+      <option value="Claude">Claude</option>
+      <option value="GPT-4">GPT-4</option>
+      <option value="Midjourney">Midjourney</option>
+      <option value="DALL-E">DALL-E</option>
+    </select>
+  </div>
 </div>
 
 <!-- Ad Banner -->
@@ -29,7 +56,7 @@
     {{ $catPages := where $pages "Params.categories" "intersect" (slice $name) }}
     {{ if gt (len $catPages) 0 }}
     <a href="{{ (printf "categories/%s/" $name) | urlize | relURL }}" class="category-card" data-category="{{ $name | urlize }}">
-      {{ $icons := dict "development" "💻" "writing" "✍️" "marketing" "📈" "image-generation" "🎨" "data-analysis" "📊" "automation" "⚙️" "business" "💼" "education" "🎓" "coding" "🖥️" "seo" "🔍" "social-media" "📱" "email" "📧" }}
+      {{ $icons := dict "development" "💻" "writing" "✍️" "marketing" "📈" "image-generation" "🎨" "data-analysis" "📊" "automation" "⚙️" "business" "💼" "education" "🎓" "coding" "🖥️" "seo" "🔍" "social-media" "📱" "email" "📧" "technical-documentation" "📝" "video-generation" "🎬" }}
       <div class="cat-icon">{{ index $icons $name | default "🚀" }}</div>
       <h3>{{ $name | title }}</h3>
       <p>Curated prompts for {{ $name }}</p>
@@ -39,6 +66,22 @@
     {{ end }}
   </div>
 </div>
+
+<!-- Trending Models Section -->
+{{ $trending := where (where .Site.RegularPages "Type" "prompts") "Params.featured" "eq" true }}
+{{ if gt (len $trending) 0 }}
+<div class="trending-section">
+  <div class="section-header">
+    <h2>🔥 Trending AI Models</h2>
+    <p>Optimized prompts for GPT-Image-2.0, Seedance 2.0, Runway Gen-4, Sora and more. Updated daily.</p>
+  </div>
+  <div class="prompts-grid">
+    {{ range first 4 $trending.ByDate.Reverse }}
+    {{ partial "prompt-card.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}
 
 <!-- Latest Prompts -->
 <div class="prompts-list">
@@ -54,6 +97,46 @@
   </div>
   <div class="text-center mt-4">
     <a href="{{ "prompts/" | relURL }}" class="btn btn-primary">View All Prompts →</a>
+  </div>
+</div>
+
+<!-- Prompt Gallery -->
+<div class="prompt-gallery-section">
+  <div class="section-header">
+    <h2>🎨 Prompt Gallery</h2>
+    <p>Community-curated prompts with before/after comparisons</p>
+  </div>
+  <div class="gallery-preview">
+    {{ range first 3 (.Site.Data.community_prompts | default slice) }}
+    <div class="gallery-card" data-id="{{ .id }}">
+      <div class="gallery-card-header">
+        <span class="gallery-category">{{ .category }}</span>
+        <span class="gallery-quality">{{ .quality_score }}</span>
+      </div>
+      <h3>{{ .title }}</h3>
+      <div class="gallery-tags">
+        {{ range .tags }}
+        <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+      <p class="gallery-excerpt">{{ .prompt_text | truncate 120 }}</p>
+      <div class="gallery-source">
+        <span>From: {{ .platform }}</span>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="text-center mt-4">
+    <a href="{{ "gallery/" | relURL }}" class="btn btn-secondary">Browse Gallery →</a>
+  </div>
+</div>
+
+<!-- Craft Guide CTA -->
+<div class="craft-cta">
+  <div class="craft-cta-content">
+    <h2>📖 Prompt Craft Guide</h2>
+    <p>Learn the 17 principles behind every great prompt. From exact text formatting to JSON-style structures, master the art of prompt engineering.</p>
+    <a href="{{ "craft-guide/" | relURL }}" class="btn btn-primary">Read Craft Guide →</a>
   </div>
 </div>
 
