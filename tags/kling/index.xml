@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kling on AI Prompt Toolkit</title>
+    <link>/tags/kling/</link>
+    <description>Recent content in Kling on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/kling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kling-2.0 Master Prompts (Updated May 2026)</title>
+      <link>/prompts/kling-2-0-master-prompts/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/kling-2-0-master-prompts/</guid>
+      <description>&lt;h1 id=&#34;kling-20-prompt-guide&#34;&gt;Kling-2.0 Prompt Guide&lt;/h1&gt;&#xA;&lt;p&gt;Optimized prompts for Kling-2.0. Updated May 2026.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

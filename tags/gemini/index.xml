@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gemini on AI Prompt Toolkit</title>
+    <link>/tags/gemini/</link>
+    <description>Recent content in Gemini on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/gemini/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemini-2.5 Master Prompts (Updated May 2026)</title>
+      <link>/prompts/gemini-2-5-master-prompts/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/gemini-2-5-master-prompts/</guid>
+      <description>&lt;h1 id=&#34;gemini-25-prompt-guide&#34;&gt;Gemini-2.5 Prompt Guide&lt;/h1&gt;&#xA;&lt;p&gt;Optimized prompts for Gemini-2.5. Updated May 2026.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

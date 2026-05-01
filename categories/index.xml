@@ -6,8 +6,22 @@
     <description>Recent content in Categories on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trending</title>
+      <link>/categories/trending/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/trending/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>/categories/coding/</link>
+      <pubDate>Thu, 30 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/categories/coding/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Education</title>
       <link>/categories/education/</link>
