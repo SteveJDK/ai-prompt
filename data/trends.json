@@ -1,0 +1,17 @@
+{
+  "last_updated": "2026-05-01T14:23:17.766393",
+  "models_tracked": [
+    "GPT-Image-2.0",
+    "Seedance-2.0",
+    "Runway-Gen-4",
+    "Sora",
+    "Kling-2.0",
+    "Claude-4",
+    "Gemini-2.5"
+  ],
+  "new_content_added": [
+    "Kling-2.0",
+    "Claude-4",
+    "Gemini-2.5"
+  ]
+}

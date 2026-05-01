@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on AI Prompt Toolkit</title>
+    <link>/tags/4/</link>
+    <description>Recent content in 4 on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude-4 Master Prompts (Updated May 2026)</title>
+      <link>/prompts/claude-4-master-prompts/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/claude-4-master-prompts/</guid>
+      <description>&lt;h1 id=&#34;claude-4-prompt-guide&#34;&gt;Claude-4 Prompt Guide&lt;/h1&gt;&#xA;&lt;p&gt;Optimized prompts for Claude-4. Updated May 2026.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

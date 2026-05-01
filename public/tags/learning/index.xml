@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning on AI Prompt Toolkit</title>
+    <link>/tags/learning/</link>
+    <description>Recent content in Learning on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Explainer</title>
+      <link>/prompts/code-explainer/</link>
+      <pubDate>Thu, 30 Apr 2026 16:00:00 +0000</pubDate>
+      <guid>/prompts/code-explainer/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

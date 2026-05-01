@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai-Model on AI Prompt Toolkit</title>
+    <link>/tags/ai-model/</link>
+    <description>Recent content in Ai-Model on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/ai-model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude-4 Master Prompts (Updated May 2026)</title>
+      <link>/prompts/claude-4-master-prompts/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/claude-4-master-prompts/</guid>
+      <description>&lt;h1 id=&#34;claude-4-prompt-guide&#34;&gt;Claude-4 Prompt Guide&lt;/h1&gt;&#xA;&lt;p&gt;Optimized prompts for Claude-4. Updated May 2026.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gemini-2.5 Master Prompts (Updated May 2026)</title>
+      <link>/prompts/gemini-2-5-master-prompts/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/gemini-2-5-master-prompts/</guid>
+      <description>&lt;h1 id=&#34;gemini-25-prompt-guide&#34;&gt;Gemini-2.5 Prompt Guide&lt;/h1&gt;&#xA;&lt;p&gt;Optimized prompts for Gemini-2.5. Updated May 2026.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kling-2.0 Master Prompts (Updated May 2026)</title>
+      <link>/prompts/kling-2-0-master-prompts/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/kling-2-0-master-prompts/</guid>
+      <description>&lt;h1 id=&#34;kling-20-prompt-guide&#34;&gt;Kling-2.0 Prompt Guide&lt;/h1&gt;&#xA;&lt;p&gt;Optimized prompts for Kling-2.0. Updated May 2026.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
