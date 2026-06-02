@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outreach on AI Prompt Toolkit</title>
+    <link>/tags/outreach/</link>
+    <description>Recent content in Outreach on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 May 2026 22:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/outreach/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cold Email Writer</title>
+      <link>/prompts/cold-email-writer/</link>
+      <pubDate>Sun, 03 May 2026 22:00:00 +0000</pubDate>
+      <guid>/prompts/cold-email-writer/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

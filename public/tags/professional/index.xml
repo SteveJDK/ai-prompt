@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional on AI Prompt Toolkit</title>
+    <link>/tags/professional/</link>
+    <description>Recent content in Professional on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 May 2026 06:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/professional/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinkedIn Post Optimizer</title>
+      <link>/prompts/linkedin-post-optimizer/</link>
+      <pubDate>Fri, 08 May 2026 06:00:00 +0000</pubDate>
+      <guid>/prompts/linkedin-post-optimizer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Professional Email Reply</title>
+      <link>/prompts/professional-email-reply/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/professional-email-reply/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

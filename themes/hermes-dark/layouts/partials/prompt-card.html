@@ -1,27 +1,35 @@
 <div class="prompt-card" data-title="{{ .Title | lower }}" data-tags="{{ with .Params.tags }}{{ delimit . " " }}{{ end }}">
-  <div class="prompt-header">
-    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+  {{ if .Params.cover }}
+  <div class="card-image-wrapper">
+    <img src="{{ .Params.cover | relURL }}" alt="{{ .Title }}" class="card-image" loading="lazy">
+    <div class="card-image-overlay"></div>
   </div>
-  <div class="prompt-tags">
-    {{ with .Params.categories }}
-    {{ range first 1 . }}
-    <span class="tag tag-cat">{{ . }}</span>
-    {{ end }}
-    {{ end }}
-    {{ with .Params.tags }}
-    {{ range first 2 . }}
-    <span class="tag">{{ . }}</span>
-    {{ end }}
-    {{ end }}
-    {{ with .Params.model }}
-    <span class="tag">{{ . }}</span>
-    {{ end }}
-  </div>
-  <p class="prompt-excerpt">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | truncate 150 }}{{ end }}</p>
-  <div class="prompt-actions">
-    <a href="{{ .Permalink }}" class="btn btn-secondary btn-sm">View</a>
-    {{ if .Params.prompt_text }}
-    <button class="btn btn-primary btn-sm copy-inline" data-prompt="{{ .Params.prompt_text | safeHTMLAttr }}">Copy</button>
-    {{ end }}
+  {{ end }}
+  <div class="card-content">
+    <div class="prompt-header">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    </div>
+    <div class="prompt-tags">
+      {{ with .Params.categories }}
+      {{ range first 1 . }}
+      <span class="tag tag-cat">{{ . }}</span>
+      {{ end }}
+      {{ end }}
+      {{ with .Params.tags }}
+      {{ range first 2 . }}
+      <span class="tag">{{ . }}</span>
+      {{ end }}
+      {{ end }}
+      {{ with .Params.model }}
+      <span class="tag tag-model">{{ . }}</span>
+      {{ end }}
+    </div>
+    <p class="prompt-excerpt">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | truncate 120 }}{{ end }}</p>
+    <div class="prompt-actions">
+      <a href="{{ .Permalink }}" class="btn btn-secondary btn-sm">View</a>
+      {{ if .Params.prompt_text }}
+      <button class="btn btn-primary btn-sm copy-inline" data-prompt="{{ .Params.prompt_text | safeHTMLAttr }}">Copy</button>
+      {{ end }}
+    </div>
   </div>
 </div>

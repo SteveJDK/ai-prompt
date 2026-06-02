@@ -6,8 +6,64 @@
     <description>Recent content on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 08:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Content Calendar Generator</title>
+      <link>/prompts/content-calendar-generator/</link>
+      <pubDate>Sat, 09 May 2026 08:00:00 +0000</pubDate>
+      <guid>/prompts/content-calendar-generator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LinkedIn Post Optimizer</title>
+      <link>/prompts/linkedin-post-optimizer/</link>
+      <pubDate>Fri, 08 May 2026 06:00:00 +0000</pubDate>
+      <guid>/prompts/linkedin-post-optimizer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twitter Thread Writer</title>
+      <link>/prompts/twitter-thread-writer/</link>
+      <pubDate>Thu, 07 May 2026 04:00:00 +0000</pubDate>
+      <guid>/prompts/twitter-thread-writer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Newsletter Template Generator</title>
+      <link>/prompts/newsletter-template-generator/</link>
+      <pubDate>Wed, 06 May 2026 02:00:00 +0000</pubDate>
+      <guid>/prompts/newsletter-template-generator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Professional Email Reply</title>
+      <link>/prompts/professional-email-reply/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/professional-email-reply/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cold Email Writer</title>
+      <link>/prompts/cold-email-writer/</link>
+      <pubDate>Sun, 03 May 2026 22:00:00 +0000</pubDate>
+      <guid>/prompts/cold-email-writer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regex Pattern Builder</title>
+      <link>/prompts/regex-pattern-builder/</link>
+      <pubDate>Sat, 02 May 2026 20:00:00 +0000</pubDate>
+      <guid>/prompts/regex-pattern-builder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithm Design Helper</title>
+      <link>/prompts/algorithm-design-helper/</link>
+      <pubDate>Fri, 01 May 2026 18:00:00 +0000</pubDate>
+      <guid>/prompts/algorithm-design-helper/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Claude-4 Master Prompts (Updated May 2026)</title>
       <link>/prompts/claude-4-master-prompts/</link>

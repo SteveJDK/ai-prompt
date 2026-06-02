@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newsletter on AI Prompt Toolkit</title>
+    <link>/tags/newsletter/</link>
+    <description>Recent content in Newsletter on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 May 2026 02:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Newsletter Template Generator</title>
+      <link>/prompts/newsletter-template-generator/</link>
+      <pubDate>Wed, 06 May 2026 02:00:00 +0000</pubDate>
+      <guid>/prompts/newsletter-template-generator/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
