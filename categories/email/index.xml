@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Email on AI Prompt Toolkit</title>
+    <link>/categories/email/</link>
+    <description>Recent content in Email on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 May 2026 02:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/email/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Newsletter Template Generator</title>
+      <link>/prompts/newsletter-template-generator/</link>
+      <pubDate>Wed, 06 May 2026 02:00:00 +0000</pubDate>
+      <guid>/prompts/newsletter-template-generator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Professional Email Reply</title>
+      <link>/prompts/professional-email-reply/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/professional-email-reply/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cold Email Writer</title>
+      <link>/prompts/cold-email-writer/</link>
+      <pubDate>Sun, 03 May 2026 22:00:00 +0000</pubDate>
+      <guid>/prompts/cold-email-writer/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

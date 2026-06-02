@@ -6,8 +6,22 @@
     <description>Recent content in Coding on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 20:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regex Pattern Builder</title>
+      <link>/prompts/regex-pattern-builder/</link>
+      <pubDate>Sat, 02 May 2026 20:00:00 +0000</pubDate>
+      <guid>/prompts/regex-pattern-builder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithm Design Helper</title>
+      <link>/prompts/algorithm-design-helper/</link>
+      <pubDate>Fri, 01 May 2026 18:00:00 +0000</pubDate>
+      <guid>/prompts/algorithm-design-helper/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Code Explainer</title>
       <link>/prompts/code-explainer/</link>

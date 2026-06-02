@@ -12,6 +12,186 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
+    <loc>/categories/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/content-calendar-generator/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/content-calendar/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/planning/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/categories/social-media/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/social-media/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-05-09T08:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/engagement/</loc>
+    <lastmod>2026-05-08T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/linkedin/</loc>
+    <lastmod>2026-05-08T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/linkedin-post-optimizer/</loc>
+    <lastmod>2026-05-08T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/professional/</loc>
+    <lastmod>2026-05-08T06:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/threads/</loc>
+    <lastmod>2026-05-07T04:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/twitter/</loc>
+    <lastmod>2026-05-07T04:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/twitter-thread-writer/</loc>
+    <lastmod>2026-05-07T04:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/viral/</loc>
+    <lastmod>2026-05-07T04:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/content/</loc>
+    <lastmod>2026-05-06T02:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/categories/email/</loc>
+    <lastmod>2026-05-06T02:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/email-marketing/</loc>
+    <lastmod>2026-05-06T02:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/newsletter/</loc>
+    <lastmod>2026-05-06T02:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/newsletter-template-generator/</loc>
+    <lastmod>2026-05-06T02:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/communication/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/email/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/professional-email-reply/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/cold-email-writer/</loc>
+    <lastmod>2026-05-03T22:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/cold-email/</loc>
+    <lastmod>2026-05-03T22:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/outreach/</loc>
+    <lastmod>2026-05-03T22:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/sales/</loc>
+    <lastmod>2026-05-03T22:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/categories/coding/</loc>
+    <lastmod>2026-05-02T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/pattern-matching/</loc>
+    <lastmod>2026-05-02T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/regex/</loc>
+    <lastmod>2026-05-02T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/regex-pattern-builder/</loc>
+    <lastmod>2026-05-02T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/text-processing/</loc>
+    <lastmod>2026-05-02T20:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/prompts/algorithm-design-helper/</loc>
+    <lastmod>2026-05-01T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/algorithms/</loc>
+    <lastmod>2026-05-01T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/coding-interviews/</loc>
+    <lastmod>2026-05-01T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>/tags/problem-solving/</loc>
+    <lastmod>2026-05-01T18:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
     <loc>/tags/0/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,11 +218,6 @@
     <priority>0.7</priority>
   </url><url>
     <loc>/tags/ai-model/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
-    <loc>/categories/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -87,11 +262,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2026-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
     <loc>/categories/trending/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -108,11 +278,6 @@
     <priority>0.7</priority>
   </url><url>
     <loc>/tags/code-explanation/</loc>
-    <lastmod>2026-04-30T16:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
-    <loc>/categories/coding/</loc>
     <lastmod>2026-04-30T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -597,11 +762,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>/tags/planning/</loc>
-    <lastmod>2026-04-11T04:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
     <loc>/tags/api-docs/</loc>
     <lastmod>2026-04-10T02:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -653,11 +813,6 @@
     <priority>0.7</priority>
   </url><url>
     <loc>/tags/persuasion/</loc>
-    <lastmod>2026-04-07T22:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url><url>
-    <loc>/tags/sales/</loc>
     <lastmod>2026-04-07T22:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

@@ -998,3 +998,88 @@ a:hover { color: var(--accent-hover); }
 .pagination a, .pagination span { padding: 8px 14px; border-radius: var(--radius-sm); background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary); font-size: 0.875rem; transition: all 0.15s ease; }
 .pagination a:hover { border-color: var(--accent); color: var(--text-primary); }
 .pagination .active { background: var(--accent); color: var(--text-inverse); border-color: var(--accent); font-weight: 600; }
+
+/* ===== UI UX Pro Max Enhancements ===== */
+
+/* Card Image Support */
+.card-image-wrapper {
+  position: relative;
+  width: calc(100% + var(--space-lg) * 2);
+  margin-left: calc(var(--space-lg) * -1);
+  margin-top: calc(var(--space-lg) * -1);
+  margin-bottom: var(--space-md);
+  height: 180px;
+  overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, var(--bg-card) 100%);
+  pointer-events: none;
+}
+
+.prompt-card:hover .card-image {
+  transform: scale(1.03);
+}
+
+/* Tag Variants */
+.tag-model {
+  background: rgba(34, 197, 94, 0.1);
+  color: var(--green);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+/* Bento Grid Enhancements for Categories */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-lg);
+}
+
+.category-card {
+  position: relative;
+  padding: var(--space-xl);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 24px -8px rgba(0,0,0,0.4);
+}
+
+.category-card .cat-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-md);
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover .cat-icon {
+  transform: scale(1.1);
+}
+
+/* Section Headers */
+.section-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-sm);
+}
+
+.section-header p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
