@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T14:20:55.292223",
+  "last_updated": "2026-06-12T14:06:00.000000",
   "models_tracked": [
     "GPT-Image-2.0",
     "Seedance-2.0",
@@ -7,11 +7,16 @@
     "Sora",
     "Kling-2.0",
     "Claude-4",
-    "Gemini-2.5"
+    "Gemini-2.5",
+    "Ideogram-4.0",
+    "Gemma-4",
+    "Cosmos3-Super",
+    "Nemotron-3-Ultra"
   ],
   "new_content_added": [
-    "Kling-2.0",
-    "Claude-4",
-    "Gemini-2.5"
+    "Ideogram-4.0",
+    "Gemma-4",
+    "Cosmos3-Super",
+    "Nemotron-3-Ultra"
   ]
 }
