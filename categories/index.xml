@@ -6,8 +6,36 @@
     <description>Recent content in Categories on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 May 2026 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image-Generation</title>
+      <link>/categories/image-generation/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/image-generation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>/categories/llm/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodal</title>
+      <link>/categories/multimodal/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/multimodal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video-Generation</title>
+      <link>/categories/video-generation/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/categories/video-generation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Social-Media</title>
       <link>/categories/social-media/</link>
@@ -41,20 +69,6 @@
       <link>/categories/education/</link>
       <pubDate>Wed, 29 Apr 2026 14:00:00 +0000</pubDate>
       <guid>/categories/education/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Image-Generation</title>
-      <link>/categories/image-generation/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>/categories/image-generation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video-Generation</title>
-      <link>/categories/video-generation/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>/categories/video-generation/</guid>
       <description></description>
     </item>
     <item>

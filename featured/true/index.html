@@ -3,7 +3,126 @@
 <a href=/categories/>Categories</a>
 <a href=/tags/>Tags</a></nav></div></header><main><div class=breadcrumb><a href=/>Home</a><span>›</span>
 <a href=/categories/>Categories</a><span>›</span>
-<span>True</span></div><div class=prompts-list><div class=section-header><h1>True</h1><p>7 prompts in this category</p></div><div class=prompts-grid><div class=prompt-card data-title="kling-2.0 master prompts (updated may 2026)" data-tags="kling 2 0 prompt-engineering ai-model 2026"><div class=card-content><div class=prompt-header><h3><a href=/prompts/kling-2-0-master-prompts/>Kling-2.0 Master Prompts (Updated May 2026)</a></h3></div><div class=prompt-tags><span class="tag tag-cat">trending</span>
+<span>True</span></div><div class=prompts-list><div class=section-header><h1>True</h1><p>11 prompts in this category</p></div><div class=prompts-grid><div class=prompt-card data-title="nemotron 3 ultra master prompts (june 2026)" data-tags="nemotron-3 nvidia 550B mamba-moe prompt-engineering 2026"><div class=card-content><div class=prompt-header><h3><a href=/prompts/nemotron-3-ultra-master-prompts/>Nemotron 3 Ultra Master Prompts (June 2026)</a></h3></div><div class=prompt-tags><span class="tag tag-cat">llm</span>
+<span class=tag>nemotron-3</span>
+<span class=tag>nvidia</span>
+<span class="tag tag-model">Nemotron-3-Ultra</span></div><p class=prompt-excerpt>Optimized prompts for NVIDIA Nemotron 3 Ultra — the first open-weight 550B hybrid Mamba-MoE model. 55B active parameters, 1M context window, 89.1 MMLU. Datacenter-scale agentic reasoning.</p><div class=prompt-actions><a href=/prompts/nemotron-3-ultra-master-prompts/ class="btn btn-secondary btn-sm">View</a>
+<button class="btn btn-primary btn-sm copy-inline" data-prompt="/* NEMOTRON 3 ULTRA MASTER PROMPT
+   VERSION: 1.0.0
+   CAPABILITIES: 550B Mamba-MoE, 55B Active, 1M Context, 89.1 MMLU
+   ARCHITECTURE: Hybrid Mamba–Transformer Mixture-of-Experts */
+
+**Task:** [ANALYSIS | REASONING | GENERATION | AGENTIC]
+**Context Size:** [ESTIMATED_TOKENS] tokens (max 1,000,000)
+**Reasoning Depth:** [SHALLOW | MODERATE | DEEP | EXHAUSTIVE]
+
+**Instructions:**
+  1. [PHASE_1 — Decomposition/Setup]
+  2. [PHASE_2 — Core Processing]
+  3. [PHASE_3 — Synthesis/Verification]
+  4. [PHASE_4 — Output Formatting]
+
+**Output Format:** [MARKDOWN | JSON | TABLE | CODE]
+**Quality Requirements:**
+  - [REQUIREMENT_1]
+  - [REQUIREMENT_2]
+
+Nemotron 3 Ultra architecture notes:
+- Mamba backbone excels at ultra-long sequences (use full 1M context!)
+- MoE with 55B active parameters — substantial reasoning depth per token
+- Hybrid design: Mamba for long-range + Transformer experts for focused reasoning
+- NVFP4 variant: ~5× throughput on Blackwell hardware
+
+Strategy: Front-load complex tasks with explicit reasoning chains.
+The Mamba architecture processes linearly — structure your prompt to match.
+">Copy</button></div></div></div><div class=prompt-card data-title="ideogram 4.0 master prompts (june 2026)" data-tags="ideogram-4 open-weight text-to-image prompt-engineering ai-art 2026"><div class=card-content><div class=prompt-header><h3><a href=/prompts/ideogram-4-0-master-prompts/>Ideogram 4.0 Master Prompts (June 2026)</a></h3></div><div class=prompt-tags><span class="tag tag-cat">image-generation</span>
+<span class=tag>ideogram-4</span>
+<span class=tag>open-weight</span>
+<span class="tag tag-model">Ideogram-4.0</span></div><p class=prompt-excerpt>Optimized prompts for Ideogram 4.0 — the #2 image generation model with first-ever open weights. JSON-structured prompts with bounding boxes, color palettes, and precision text layouts. Excels at posters, UI mockups, and text-rich designs.</p><div class=prompt-actions><a href=/prompts/ideogram-4-0-master-prompts/ class="btn btn-secondary btn-sm">View</a>
+<button class="btn btn-primary btn-sm copy-inline" data-prompt='/* IDEOGRAM-4.0 MASTER PROMPT
+   VERSION: 1.0.0
+   CAPABILITIES: Text-Rich Layouts, Bounding Box Control, Open Weights DiT
+   STRENGTHS: Posters, UI Mockups, Labelled Diagrams, Typography */
+
+**Canvas:** [ASPECT_RATIO] at [RESOLUTION] (e.g., "2:3 at 2K", "16:9 at 2K")
+**Layout Type:** [poster | UI mockup | diagram | product shot | illustration]
+**Structured Regions (JSON style):**
+  - Each region: { "bbox": [x1, y1, x2, y2], "content": "...", "font/style": "..." }
+  - Bounding boxes powerful for text placement — Ideogram 4&#39;s core strength
+**Color Palette:** [PRIMARY], [SECONDARY], [ACCENT], [BACKGROUND]
+  - Use hex codes (#RRGGBB) for brand consistency
+**Lighting:** [TYPE] [DIRECTION] [MOOD]
+**Material/Texture:** [SURFACE_DETAILS]
+**Quality Directives:** "no text artifacts, clean lines, professional grade"
+
+Key Ideogram 4.0 differentiators:
+- Bounding-box syntax for pixel-precise text placement
+- Native 2K resolution — always specify "2K" for best quality
+- Excels at combining text + visuals (posters, UI, diagrams)
+- Flow-matching DiT architecture — different prompt style than diffusion
+'>Copy</button></div></div></div><div class=prompt-card data-title="gemma 4 master prompts (june 2026)" data-tags="gemma-4 google multimodal any-to-any prompt-engineering 2026"><div class=card-content><div class=prompt-header><h3><a href=/prompts/gemma-4-master-prompts/>Gemma 4 Master Prompts (June 2026)</a></h3></div><div class=prompt-tags><span class="tag tag-cat">llm</span>
+<span class=tag>gemma-4</span>
+<span class=tag>google</span>
+<span class="tag tag-model">Gemma-4</span></div><p class=prompt-excerpt>Optimized prompts for Google Gemma 4 12B — the encoder-free any-to-any multimodal model. Handles text, image, audio, and video with 256K context. Apache 2.0 open weights. Laptop-class deployment.</p><div class=prompt-actions><a href=/prompts/gemma-4-master-prompts/ class="btn btn-secondary btn-sm">View</a>
+<button class="btn btn-primary btn-sm copy-inline" data-prompt="/* GEMMA-4 MASTER PROMPT
+   VERSION: 1.0.0
+   CAPABILITIES: Any-to-Any Multimodal, 256K Context, 140+ Languages
+   ARCHITECTURE: 12B Encoder-Free, Apache 2.0 */
+
+**Task Type:** [analysis | translation | generation | coding | creative]
+**Input Modality:** [text | image | audio | video | mixed]
+**Output Format:** [markdown | JSON | code | plain text]
+**Language:** [TARGET_LANGUAGE] (Gemma 4 supports 140+ natively)
+
+**Context (use the full 256K):**
+  [DETAILED_CONTEXT — include reference docs, examples, specifications]
+
+**Instructions:**
+  1. [STEP_1 — modality-specific analysis]
+  2. [STEP_2 — processing]
+  3. [STEP_3 — output formatting]
+
+**Constraints:**
+  - [CONSTRAINT_1]
+  - [CONSTRAINT_2]
+
+Key Gemma 4 capabilities:
+- Encoder-free design: no separate vision/audio encoders — unified processing
+- 256K context window: provide extensive reference material
+- 140+ languages: specify target language explicitly
+- Apache 2.0: fully open for commercial use
+">Copy</button></div></div></div><div class=prompt-card data-title="cosmos3-super master prompts (june 2026)" data-tags="cosmos-3 nvidia physical-ai video-generation world-model 2026"><div class=card-content><div class=prompt-header><h3><a href=/prompts/cosmos3-super-master-prompts/>Cosmos3-Super Master Prompts (June 2026)</a></h3></div><div class=prompt-tags><span class="tag tag-cat">video-generation</span>
+<span class=tag>cosmos-3</span>
+<span class=tag>nvidia</span>
+<span class="tag tag-model">Cosmos3-Super</span></div><p class=prompt-excerpt>Optimized prompts for NVIDIA Cosmos3-Super — a 64B physical-AI omnimodel that couples action trajectories with video+audio generation. World-model architecture for physics-aware content creation.</p><div class=prompt-actions><a href=/prompts/cosmos3-super-master-prompts/ class="btn btn-secondary btn-sm">View</a>
+<button class="btn btn-primary btn-sm copy-inline" data-prompt="/* COSMOS3-SUPER MASTER PROMPT
+   VERSION: 1.0.0
+   CAPABILITIES: Physical-AI Video Gen, Action-Conditioned, Audio Sync
+   ARCHITECTURE: 64B Omnimodel (32B Reasoner + 32B Generator) */
+
+**Scene:** [SCENE_TYPE] — [DURATION]s at [FPS]fps
+**World Physics:**
+  - Gravity: [VALUE] m/s²
+  - Atmosphere: [DENSITY], [WIND], [TEMPERATURE]
+  - Materials present: [GLASS, METAL, CLOTH, WATER, ORGANIC]
+**Camera:**
+  - Path: [SHOT_1 → SHOT_2 → SHOT_3] with [TRANSITION_TYPE]
+  - Lens: [FOCAL_LENGTH]mm, [APERTURE]
+**Action Trajectory (keyframed):**
+  t=[START]: [INITIAL_STATE]
+  t=[MID]: [INTERMEDIATE_ACTION]
+  t=[END]: [FINAL_STATE]
+**Audio:**
+  - Type: [PHYSICS_BASED | DESIGNED | MUSIC]
+  - Sync: [ON_ACTION | CONTINUOUS | REACTIVE]
+**Quality:** [PHOTOREAL | STYLIZED], temporal consistency HIGH
+
+Cosmos3-Super differentiators:
+- Physical simulation, not just pixel prediction
+- Couples action → video → audio in one unified generation
+- World-model architecture understands object permanence and physics
+- OpenMDW 1.1 license on Hugging Face
+">Copy</button></div></div></div><div class=prompt-card data-title="kling-2.0 master prompts (updated may 2026)" data-tags="kling 2 0 prompt-engineering ai-model 2026"><div class=card-content><div class=prompt-header><h3><a href=/prompts/kling-2-0-master-prompts/>Kling-2.0 Master Prompts (Updated May 2026)</a></h3></div><div class=prompt-tags><span class="tag tag-cat">trending</span>
 <span class=tag>kling</span>
 <span class=tag>2</span>
 <span class="tag tag-model">Kling-2.0</span></div><p class=prompt-excerpt>Optimized prompts for Kling-2.0 — featuring advanced control techniques, structured configurations, and precision parameters. Updated for latest capabilities.</p><div class=prompt-actions><a href=/prompts/kling-2-0-master-prompts/ class="btn btn-secondary btn-sm">View</a>

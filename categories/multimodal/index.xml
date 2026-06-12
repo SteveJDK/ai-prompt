@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimodal on AI Prompt Toolkit</title>
+    <link>/categories/multimodal/</link>
+    <description>Recent content in Multimodal on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/multimodal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cosmos3-Super Master Prompts (June 2026)</title>
+      <link>/prompts/cosmos3-super-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/cosmos3-super-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;cosmos3-super-prompt-guide&#34;&gt;Cosmos3-Super Prompt Guide&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;NVIDIA Cosmos3-Super&lt;/strong&gt; (released June 2026) is a &lt;strong&gt;64 billion parameter physical-AI omnimodel&lt;/strong&gt; — a world-model architecture that combines a 32B reasoning module with a 32B generation module. Unlike traditional video generators that predict pixels, Cosmos3-Super &lt;strong&gt;simulates physics&lt;/strong&gt; and couples action trajectories with synchronized video and audio output.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Action Trajectory → [32B Reasoner] → Physical State → [32B Generator] → Video + Audio&#xA;                                    ↑&#xA;                              World Knowledge&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;prompting-strategy&#34;&gt;Prompting Strategy&lt;/h3&gt;&#xA;&lt;p&gt;Cosmos3-Super requires a fundamentally different prompting approach than diffusion-based video models (Sora, Runway, Kling):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gemma 4 Master Prompts (June 2026)</title>
+      <link>/prompts/gemma-4-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/gemma-4-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;gemma-4-prompt-guide&#34;&gt;Gemma 4 Prompt Guide&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Gemma 4 12B&lt;/strong&gt; (released June 2026) is Google&amp;rsquo;s &lt;strong&gt;encoder-free any-to-any multimodal model&lt;/strong&gt; — a single unified architecture that processes text, images, audio, and video without separate modality-specific encoders. It ships with &lt;strong&gt;Apache 2.0 open weights&lt;/strong&gt;, making it the most deployable multimodal open model available.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-capabilities&#34;&gt;Key Capabilities&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Feature&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Architecture&lt;/td&gt;&#xA;          &lt;td&gt;12B encoder-free any-to-any&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Context Window&lt;/td&gt;&#xA;          &lt;td&gt;256,000 tokens&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Languages&lt;/td&gt;&#xA;          &lt;td&gt;140+ natively supported&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Modalities&lt;/td&gt;&#xA;          &lt;td&gt;Text, image, audio, video&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;License&lt;/td&gt;&#xA;          &lt;td&gt;Apache 2.0 (fully open)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Deployment&lt;/td&gt;&#xA;          &lt;td&gt;Laptop-class (ONNX + MLX ready)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;prompting-strategy&#34;&gt;Prompting Strategy&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Declare modalities upfront&lt;/strong&gt; — Tell Gemma 4 what types of input you&amp;rsquo;re providing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Use the full context&lt;/strong&gt; — 256K tokens lets you include entire documents, codebases, or transcripts&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Specify output format&lt;/strong&gt; — Gemma 4 responds well to structured output format directives&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Explicit language selection&lt;/strong&gt; — For multilingual tasks, name the target language explicitly&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sequential analysis for mixed content&lt;/strong&gt; — Break complex multi-modal tasks into ordered steps&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;deployment&#34;&gt;Deployment&lt;/h3&gt;&#xA;&lt;p&gt;Weights available via Hugging Face. QAT (Quantization-Aware Training) enables INT4/FP8 deployment on consumer hardware. ONNX and MLX ports available for Apple Silicon.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

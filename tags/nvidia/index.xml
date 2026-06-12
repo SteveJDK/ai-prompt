@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nvidia on AI Prompt Toolkit</title>
+    <link>/tags/nvidia/</link>
+    <description>Recent content in Nvidia on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cosmos3-Super Master Prompts (June 2026)</title>
+      <link>/prompts/cosmos3-super-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/cosmos3-super-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;cosmos3-super-prompt-guide&#34;&gt;Cosmos3-Super Prompt Guide&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;NVIDIA Cosmos3-Super&lt;/strong&gt; (released June 2026) is a &lt;strong&gt;64 billion parameter physical-AI omnimodel&lt;/strong&gt; — a world-model architecture that combines a 32B reasoning module with a 32B generation module. Unlike traditional video generators that predict pixels, Cosmos3-Super &lt;strong&gt;simulates physics&lt;/strong&gt; and couples action trajectories with synchronized video and audio output.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Action Trajectory → [32B Reasoner] → Physical State → [32B Generator] → Video + Audio&#xA;                                    ↑&#xA;                              World Knowledge&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;prompting-strategy&#34;&gt;Prompting Strategy&lt;/h3&gt;&#xA;&lt;p&gt;Cosmos3-Super requires a fundamentally different prompting approach than diffusion-based video models (Sora, Runway, Kling):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nemotron 3 Ultra Master Prompts (June 2026)</title>
+      <link>/prompts/nemotron-3-ultra-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/nemotron-3-ultra-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;nemotron-3-ultra-prompt-guide&#34;&gt;Nemotron 3 Ultra Prompt Guide&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;NVIDIA Nemotron 3 Ultra&lt;/strong&gt; (released June 2026) is the first open-weight &lt;strong&gt;550 billion parameter hybrid Mamba–Mixture-of-Experts model&lt;/strong&gt; — a groundbreaking architecture combining Mamba&amp;rsquo;s linear-time sequence processing with Transformer-based expert modules.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Input → [Mamba Backbone] → [MoE Router] → [Expert 1..N] → Output&#xA;         ↑ Linear time        ↑ 55B active        ↑ Sparse activation&#xA;         1M context OK        out of 550B total     ~10% active params&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;key-specifications&#34;&gt;Key Specifications&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Metric&lt;/th&gt;&#xA;          &lt;th&gt;Value&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Total Parameters&lt;/td&gt;&#xA;          &lt;td&gt;550B&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Active Parameters&lt;/td&gt;&#xA;          &lt;td&gt;55B (~10%)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Context Window&lt;/td&gt;&#xA;          &lt;td&gt;1,000,000 tokens&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;MMLU Score&lt;/td&gt;&#xA;          &lt;td&gt;89.1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Architecture&lt;/td&gt;&#xA;          &lt;td&gt;Hybrid Mamba–Transformer MoE&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;License&lt;/td&gt;&#xA;          &lt;td&gt;Open weights (NVFP4 variant on Hugging Face)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;prompting-strategy&#34;&gt;Prompting Strategy&lt;/h3&gt;&#xA;&lt;p&gt;Nemotron 3 Ultra&amp;rsquo;s unique Mamba-MoE architecture requires different prompting than pure Transformer models:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

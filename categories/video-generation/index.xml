@@ -6,8 +6,15 @@
     <description>Recent content in Video-Generation on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/video-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cosmos3-Super Master Prompts (June 2026)</title>
+      <link>/prompts/cosmos3-super-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/cosmos3-super-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;cosmos3-super-prompt-guide&#34;&gt;Cosmos3-Super Prompt Guide&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;NVIDIA Cosmos3-Super&lt;/strong&gt; (released June 2026) is a &lt;strong&gt;64 billion parameter physical-AI omnimodel&lt;/strong&gt; — a world-model architecture that combines a 32B reasoning module with a 32B generation module. Unlike traditional video generators that predict pixels, Cosmos3-Super &lt;strong&gt;simulates physics&lt;/strong&gt; and couples action trajectories with synchronized video and audio output.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Action Trajectory → [32B Reasoner] → Physical State → [32B Generator] → Video + Audio&#xA;                                    ↑&#xA;                              World Knowledge&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;prompting-strategy&#34;&gt;Prompting Strategy&lt;/h3&gt;&#xA;&lt;p&gt;Cosmos3-Super requires a fundamentally different prompting approach than diffusion-based video models (Sora, Runway, Kling):&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Runway Gen-4 Cinematic AI Video Prompts (2026)</title>
       <link>/prompts/runway-gen-4-cinematic/</link>
