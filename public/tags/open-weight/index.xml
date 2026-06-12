@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-Weight on AI Prompt Toolkit</title>
+    <link>/tags/open-weight/</link>
+    <description>Recent content in Open-Weight on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/open-weight/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideogram 4.0 Master Prompts (June 2026)</title>
+      <link>/prompts/ideogram-4-0-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/ideogram-4-0-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;ideogram-40-optimization-guide&#34;&gt;Ideogram 4.0 Optimization Guide&lt;/h2&gt;&#xA;&lt;p&gt;Ideogram 4.0 (June 2026) is a &lt;strong&gt;9.3B parameter Diffusion Transformer (DiT)&lt;/strong&gt; trained from scratch with flow-matching — and it ships &lt;strong&gt;open weights&lt;/strong&gt; for the first time. It ranks &lt;strong&gt;#2 overall&lt;/strong&gt; on image generation leaderboards, behind only GPT Image 2.0, and is the &lt;strong&gt;#1 open-weight model&lt;/strong&gt; on Design Arena and LMArena.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-strengths&#34;&gt;Key Strengths&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Text-Rich Layouts&lt;/strong&gt;: Posters, UI mockups, labelled diagrams — text renders clean without garbled characters&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Bounding Box Control&lt;/strong&gt;: JSON-style &lt;code&gt;bbox&lt;/code&gt; coordinates for pixel-precise element placement&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Color Palette Adherence&lt;/strong&gt;: Explicit hex color arrays produce consistent brand outputs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2K Native Resolution&lt;/strong&gt;: Trained at 2048×2048 — always specify &amp;ldquo;2K&amp;rdquo; for optimal quality&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;prompt-structure&#34;&gt;Prompt Structure&lt;/h3&gt;&#xA;&lt;p&gt;Ideogram 4.0 responds best to &lt;strong&gt;JSON-structured prompts&lt;/strong&gt; with explicit spatial coordinates. Unlike diffusion models that benefit from verbose natural language, Ideogram&amp;rsquo;s DiT architecture prefers structured parameterization:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

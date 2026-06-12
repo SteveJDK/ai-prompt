@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mamba-Moe on AI Prompt Toolkit</title>
+    <link>/tags/mamba-moe/</link>
+    <description>Recent content in Mamba-Moe on AI Prompt Toolkit</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/mamba-moe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nemotron 3 Ultra Master Prompts (June 2026)</title>
+      <link>/prompts/nemotron-3-ultra-master-prompts/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/prompts/nemotron-3-ultra-master-prompts/</guid>
+      <description>&lt;h2 id=&#34;nemotron-3-ultra-prompt-guide&#34;&gt;Nemotron 3 Ultra Prompt Guide&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;NVIDIA Nemotron 3 Ultra&lt;/strong&gt; (released June 2026) is the first open-weight &lt;strong&gt;550 billion parameter hybrid Mamba–Mixture-of-Experts model&lt;/strong&gt; — a groundbreaking architecture combining Mamba&amp;rsquo;s linear-time sequence processing with Transformer-based expert modules.&lt;/p&gt;&#xA;&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Input → [Mamba Backbone] → [MoE Router] → [Expert 1..N] → Output&#xA;         ↑ Linear time        ↑ 55B active        ↑ Sparse activation&#xA;         1M context OK        out of 550B total     ~10% active params&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;key-specifications&#34;&gt;Key Specifications&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Metric&lt;/th&gt;&#xA;          &lt;th&gt;Value&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Total Parameters&lt;/td&gt;&#xA;          &lt;td&gt;550B&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Active Parameters&lt;/td&gt;&#xA;          &lt;td&gt;55B (~10%)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Context Window&lt;/td&gt;&#xA;          &lt;td&gt;1,000,000 tokens&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;MMLU Score&lt;/td&gt;&#xA;          &lt;td&gt;89.1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Architecture&lt;/td&gt;&#xA;          &lt;td&gt;Hybrid Mamba–Transformer MoE&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;License&lt;/td&gt;&#xA;          &lt;td&gt;Open weights (NVFP4 variant on Hugging Face)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;prompting-strategy&#34;&gt;Prompting Strategy&lt;/h3&gt;&#xA;&lt;p&gt;Nemotron 3 Ultra&amp;rsquo;s unique Mamba-MoE architecture requires different prompting than pure Transformer models:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
