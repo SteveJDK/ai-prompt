@@ -6,13 +6,118 @@
     <description>Recent content in Tags on AI Prompt Toolkit</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026</title>
       <link>/tags/2026/</link>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/tags/2026/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai-Model</title>
+      <link>/tags/ai-model/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/ai-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>/tags/anthropic/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/anthropic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude-Fable-5</title>
+      <link>/tags/claude-fable-5/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/claude-fable-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude-Mythos-5</title>
+      <link>/tags/claude-mythos-5/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/claude-mythos-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>/tags/coding/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Glm-5-2</title>
+      <link>/tags/glm-5-2/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/glm-5-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpt-5-5</title>
+      <link>/tags/gpt-5-5/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/gpt-5-5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mit-License</title>
+      <link>/tags/mit-license/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/mit-license/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multimodality</title>
+      <link>/tags/multimodality/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/multimodality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mythos-Class</title>
+      <link>/tags/mythos-class/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/mythos-class/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Weights</title>
+      <link>/tags/open-weights/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/open-weights/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openai</title>
+      <link>/tags/openai/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt-Engineering</title>
+      <link>/tags/prompt-engineering/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/prompt-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reasoning</title>
+      <link>/tags/reasoning/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/reasoning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Z-Ai</title>
+      <link>/tags/z-ai/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/tags/z-ai/</guid>
       <description></description>
     </item>
     <item>
@@ -104,13 +209,6 @@
       <link>/tags/physical-ai/</link>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
       <guid>/tags/physical-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Prompt-Engineering</title>
-      <link>/tags/prompt-engineering/</link>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>/tags/prompt-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -324,13 +422,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai-Model</title>
-      <link>/tags/ai-model/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>/tags/ai-model/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Claude</title>
       <link>/tags/claude/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
@@ -447,13 +538,6 @@
       <link>/tags/motion-transfer/</link>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
       <guid>/tags/motion-transfer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Openai</title>
-      <link>/tags/openai/</link>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>/tags/openai/</guid>
       <description></description>
     </item>
     <item>
